@@ -1,0 +1,217 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
+</head>
+
+
+<body>
+    <!-- home -->
+    
+    <!-- Home nav -->
+    
+    <nav class="navbar navbar-expand-lg  p-4">
+        
+        <div class="container x  ">
+            <a class="navbar-brand d-flex justify-content-between" href="#">
+
+                <div>
+                    <img class="me-2  " src="images/logo.png" alt="">
+                </div>
+
+                <div >
+
+                    <h1 class="text-white fs-6 fw-bold">Weather</h1>
+                    <small class="">tagline goes here</small>
+
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class=" collapse navbar-collapse    " id="navbarNavAltMarkup">
+                <ul class="navbar-nav d-flex justify-content-around p-3 ms-auto   ">
+                    <li> <a class="nav-link custom active px-4   rounded-pill  " aria-current="page" href="index.html">Home</a></li>
+                    <li> <a class="nav-link px-4  rounded-pill " href="#">News</a></li>
+                    <li><a class="nav-link px-4 rounded-pill " href="#">Live cameras</a></li>
+                    <li> <a class="nav-link px-4 rounded-pill " href="#">Photos</a></li>
+                    <li> <a class="nav-link px-4 rounded-pill " href="contact.html">Contact</a></li>
+                    
+                   
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+     
+    
+    
+    <!-- Home contant -->
+    
+    <section class="contant  position-relative" >
+
+        
+           
+            <div class="container position-relative ">
+            <button class=" btn-search   btn  border-0 rounded-pill text-white">Find</button>
+
+            <input type="text" class="form-control border-0 rounded-pill"  placeholder="find your location..."   name="" id="search" >
+           </div>
+      
+
+
+        <div class="container  my-5">
+
+
+            <div class="forcast-container row " id="forcast">
+
+                <div class="today col-md-4  ">
+                    
+                    <div class="forcast-header  d-flex justify-content-between text-white">
+                       <p id="day1"></p>
+                       <p id="date"></p>
+                    </div>
+                    <div class="forcast-contant text-white ">
+
+                        <div class="location" id="city"></div>
+                        <div class="degree d-flex justify-content-between" >
+                            <div class="num "  id="degree"></div>
+                            <div class="forcast-icon " ><img id="forcasticon1" src="" alt width="90"></div>
+
+                        </div>
+                        
+                        <div class="conditions " id="conditions1"></div>
+
+                        <span>
+                            <img src="images/icon-umberella.png" alt="">
+                            20%
+                        </span>
+
+                        <span>
+                            <img src="images/icon-wind.png" alt="">
+                            18km/h
+                        </span>
+
+                        <span>
+                            <img src="images/icon-compass.png" alt="">
+                            East
+                        </span>
+
+                    </div>
+                </div>
+               
+                <!-- 2 -->
+                <div class="forcast2 col-md-4 ">
+
+                    <div class="forcast-header text-center text-white">
+
+                        <p id="day2"></p>
+
+                    </div>
+
+                    <div class="forcast2-contant  d-flex  h-75 flex-column  align-items-center  justify-content-center ">
+
+                        <div class="forcast-icon mb-4 " ><img id="forcasticon2" src="" alt width="48"></div>
+
+                        <div class="degree">
+
+                        <div class="max-deg text-white" id="maxdeg2"></div>
+                        </div>
+
+                        <div class="min-deg" id="mindeg2"></div>
+                        
+                        <div class="conditions" id="conditions2"></div>
+
+                    </div>
+
+                </div>
+
+                <!-- 3 -->
+                <div class="forcast3 col-md-4 ">
+
+                    <div class="forcast-header  text-center text-white   ">
+
+                        <p id="day3"></p>
+
+                    </div>
+
+                    <div class="forcast3-contant  text-center   d-flex  h-75 flex-column  align-items-center  justify-content-center">
+                        <div class="forcast-icon mb-4" ><img id="forcasticon3" src="" alt width="48"></div>
+
+                        <div class="degree">
+                            <div class="max-deg text-white" id="maxdeg3"></div>
+                        </div>
+                        <div class="min-deg" id="mindeg3"></div>
+                        
+                        <div class="conditions" id="conditions3"></div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+         
+
+
+        </div>
+        
+        
+
+        
+        
+    </section>
+
+
+    <footer class=" p-5">
+
+        <div class="container ">
+
+                <div class="row">
+
+                    <div class="col-md-8 mb-4 position-relative">
+                        <button class=" btn-footer-search   btn  border-0 rounded-pill text-white">Subscribe</button>
+                        <input type="text" class="form-control border-0 rounded-pill " name="" id="search" placeholder="Enter your email to subscribe...">
+         
+                     </div>
+                     <div class="col-md-3 offset-1  d-flex  justify-content-center">
+                        <a href="" class="rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""class="rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""class="rounded-circle"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""class="rounded-circle"><i class="fa-brands fa-pinterest"></i></a>
+                       
+                         
+                     </div>
+
+                </div>
+               
+
+                 <div>
+                     <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                 </div>
+            
+           
+        </div>
+
+    </footer>
+    
+    
+    
+    
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script  src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
